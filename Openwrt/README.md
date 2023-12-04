@@ -1,1 +1,1 @@
-# Seting up OpenWrt
+# Setting up OpenWrt
