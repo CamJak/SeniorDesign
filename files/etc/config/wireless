@@ -1,0 +1,6 @@
+config wifi-iface
+  option device   'radio0'
+  option network  'lan'
+  option mode     'ap'
+  option ssid     'OpenWrt'
+  option encryption 'none'
