@@ -1,0 +1,874 @@
+[
+    {
+        "timestamp": "1702668717.084496",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668717.086064",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668717.221257",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668717.221393",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668717.222307",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 794,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668717.344266",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668717.344433",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668717.357501",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668717.465792",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 874,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668717.472059",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 266,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668717.607254",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668718.233867",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668718.233867",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668718.234048",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668718.236616",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668718.371771",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668719.336087",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 170,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668719.49535",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 298,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668719.539523",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668720.912832",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.050529",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 234,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.051272",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.186525",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.186711",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.187009",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 634,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.332042",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.342238",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 1482,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.342238",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 874,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.342406",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.351774",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 186,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.352024",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 714,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.406111",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 428,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.406337",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 437,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.406559",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 500,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.406926",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 496,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.407158",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 476,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.407401",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 508,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.407713",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 490,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.407946",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 492,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.408349",
+        "source_ip": "192.168.0.1",
+        "destination_ip": "239.255.255.250",
+        "protocol": "IP",
+        "length": 492,
+        "hex_dump": "Ether / IP / UDP 192.168.0.1:44343 > 239.255.255.250:ssdp / Raw"
+    },
+    {
+        "timestamp": "1702668721.487187",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.661516",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 1434,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.663703",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 330,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.688055",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.825777",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 186,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.826884",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 1354,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.840066",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.921787",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 986,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.933644",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 1354,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.933787",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 186,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.958047",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 266,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.95838",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 298,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.964326",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 410,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.96455",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 442,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.976197",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 1354,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668721.977281",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 282,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668721.97749",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 634,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.075359",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 1306,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.075579",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.075607",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.075718",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.075718",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.076041",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 202,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.076161",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.076173",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.076262",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.076495",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 1354,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.076514",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 1066,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.09323",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.093413",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.099465",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.09963",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.113954",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 634,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.113954",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 234,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.114378",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.114415",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.131198",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 762,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.131667",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.135308",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 1354,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.13532",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 330,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.215878",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.215878",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.216175",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.216284",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.21702",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.275962",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.294167",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.300637",
+        "source_ip": "fe80::147b:6d4f:21d9:a7f3",
+        "destination_ip": "ff02::16",
+        "protocol": "IPv6",
+        "length": 90,
+        "hex_dump": "Ether / fe80::147b:6d4f:21d9:a7f3 > ff02::16 (0) / IPv6ExtHdrHopByHop / ICMPv6MLReport2"
+    },
+    {
+        "timestamp": "1702668722.352774",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 682,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.378172",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.412279",
+        "source_ip": "192.168.0.126",
+        "destination_ip": "224.0.0.2",
+        "protocol": "IP",
+        "length": 60,
+        "hex_dump": "Ether / 192.168.0.126 > 224.0.0.2 2 / Raw / Padding"
+    },
+    {
+        "timestamp": "1702668722.412921",
+        "source_ip": "192.168.0.126",
+        "destination_ip": "224.0.0.251",
+        "protocol": "IP",
+        "length": 60,
+        "hex_dump": "Ether / 192.168.0.126 > 224.0.0.251 2 / Raw / Padding"
+    },
+    {
+        "timestamp": "1702668722.433939",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 650,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.437801",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.459863",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 154,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.575567",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 186,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.576182",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.710071",
+        "source_ip": "192.168.0.126",
+        "destination_ip": "224.0.0.251",
+        "protocol": "IP",
+        "length": 139,
+        "hex_dump": "Ether / IP / UDP / DNS Qry \"b'_companion-link._tcp.local.'\" "
+    },
+    {
+        "timestamp": "1702668722.710352",
+        "source_ip": "fe80::147b:6d4f:21d9:a7f3",
+        "destination_ip": "ff02::fb",
+        "protocol": "IPv6",
+        "length": 159,
+        "hex_dump": "Ether / IPv6 / UDP / DNS Qry \"b'_companion-link._tcp.local.'\" "
+    },
+    {
+        "timestamp": "1702668722.711319",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 138,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.711794",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.71181",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 698,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.846964",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.862341",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 330,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668722.862899",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 186,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.863159",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 1002,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    },
+    {
+        "timestamp": "1702668722.998378",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668723.019148",
+        "source_ip": "185.159.157.24",
+        "destination_ip": "192.168.0.249",
+        "protocol": "IP",
+        "length": 714,
+        "hex_dump": "Ether / IP / UDP 185.159.157.24:https > 192.168.0.249:58350 / Raw"
+    },
+    {
+        "timestamp": "1702668723.019579",
+        "source_ip": "192.168.0.249",
+        "destination_ip": "185.159.157.24",
+        "protocol": "IP",
+        "length": 122,
+        "hex_dump": "Ether / IP / UDP 192.168.0.249:58350 > 185.159.157.24:https / Raw"
+    }
+]
