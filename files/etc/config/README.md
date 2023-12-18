@@ -20,7 +20,7 @@ The config directory contains several different configurations for the CSNA. If 
 
 For example, if you would like the Pi to use the ethernet port as the WAN port, you would need to rename the **_eth0_wan_** file to **_network_** and rename or delete the **_network_** file.
 
-The different network configurations are defined [below](#network-configurations).
+The different network configurations are defined below.
 
 ## Network Configurations
 
