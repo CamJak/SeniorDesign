@@ -10,4 +10,4 @@ The crux of our project is an all-in-one security device that will be plug-and-p
 
 ## Codebase
 
-Our project's codebase is built on the open source routing operating system [OpenWRT](https://openwrt.org). (To be updated as code is added)
+To be updated shortly :)
