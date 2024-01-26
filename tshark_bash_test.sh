@@ -41,7 +41,7 @@ if netstat -tuln | grep ':22'; then
     echo "Warning: SSH port is open!"
 
     # Check for potentially vulnerable or compromised states
-    netstat -tuln | awk '$6 != "LISTEN" && $6 != "CLOSED" {print "Potentially vulnerable state:", $0}'
+    netstat -tuln | awk '$6 != "CLOSED" {print "Potentially vulnerable state:", $0}'
 
     # Use tshark to scan for traffic on the SSH port
     echo "Scanning for SSH traffic..."
