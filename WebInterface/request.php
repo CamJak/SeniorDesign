@@ -1,9 +1,9 @@
 <?php 
     $env = parse_ini_file('/etc/csna/setupVars.conf');
-    $validUname = $env['USERNAME'];
-    $validPass = $env['PASSWORD'];
 
     if (isset($_POST['username']) && isset($_POST['password'])) {
+        $validUname = $env['USERNAME'];
+        $validPass = $env['PASSWORD'];
 
         function validate($data){
     

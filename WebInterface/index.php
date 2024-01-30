@@ -51,7 +51,7 @@
 
 <body>
     <h1>Router Login</h1>
-    <form action="login.php" method="post">
+    <form action="request.php" method="post">
         <div class="image">
             <img src="logo.png" alt="logo" width="310">
         </div>
