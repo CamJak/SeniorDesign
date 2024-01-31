@@ -33,7 +33,7 @@ echo "---- end strange user agents. ----"
 
 #general analytics
 echo "---- general analytics: ----"
-tshark -r $output_dir/$dumpfile -z endpoints,tcp -q >> $output_dir/tcp_endpoint_analytics.txt
+tshark -r $output_dir/$dumpfile -z endpoints,tcp -q > $output_dir/tcp_endpoint_analytics.txt
 cat $output_dir/tcp_endpoint_analytics.txt
 
 # Check if SSH port is open
