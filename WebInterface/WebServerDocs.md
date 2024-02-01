@@ -13,7 +13,8 @@ Interact with the nginx process:
 - can also use commands: stop, restart, status, enable (sets nginx to auto-start on reboot)
 
 Important locations:
-- NGINX config: /etc/nginx/nginx.conf
+- NGINX config: /etc/nginx/nginx.conf 
+- Other config: /etc/nginx/sites-available/default (this one seems to be the better one)
 - Web root: /var/www/html
   - Updates imediately when changes are made!
 
