@@ -35,3 +35,17 @@ Pages that helped me while writing php:
   - Errors I encountered
     - https://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php
     - https://stackoverflow.com/questions/67963371/load-a-env-file-with-php
+
+# Testing PHP locally
+
+Run this command to run a local PHP server at the specified directory.
+https://www.php.net/manual/en/features.commandline.webserver.php
+
+> php.exe -S localhost:8000 -t C:\rootDir
+
+# Using NGINX to handle AuthN and AuthZ
+
+After doing some research I discovered that NGINX has the capability to handle our auth and lock down certain routes on the page as desired,
+as well as to block outside IPs from accessing the page at all.
+
+- https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
