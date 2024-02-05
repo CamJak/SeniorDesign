@@ -1,0 +1,33 @@
+File name:           ./tshark_outputs/trafficdump.pcap
+File type:           Wireshark/... - pcapng
+File encapsulation:  Linux cooked-mode capture v1
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   64
+File size:           7,312 bytes
+Data size:           4,942 bytes
+Capture duration:    3.060246208 seconds
+First packet time:   2024-01-31 22:57:14.493481227
+Last packet time:    2024-01-31 22:57:17.553727435
+Data byte rate:      1,614 bytes/s
+Data bit rate:       12kbps
+Average packet size: 77.22 bytes
+Average packet rate: 20 packets/s
+SHA256:              8faf04a5353b8cf360ef04b4f9d76e2e45b18db0360b08a5c4ed9c02298e0d3e
+RIPEMD160:           9cd5de2912fcb77a9a207de7565f1b39e5d8448f
+SHA1:                e591aa771aaece934452032a7b96d74336df4385
+Strict time order:   False
+Capture hardware:    11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz (with SSE4.2)
+Capture oper-sys:    Linux 5.14.0-kali4-amd64
+Capture application: Dumpcap (Wireshark) 3.4.9 (Git v3.4.9 packaged as 3.4.9-1)
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = any
+                     Encapsulation = Linux cooked-mode capture v1 (25 - linux-sll)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 5.14.0-kali4-amd64
+                     Number of stat entries = 0
+                     Number of packets = 64
