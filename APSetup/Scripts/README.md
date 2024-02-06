@@ -63,7 +63,7 @@ Before you begin, make sure you have the following:
    ```
 5. Navigate to the Scripts directory of the APSetup folder
    ```bash
-    cd SeniorDesign/APSetup/Scripts
+    cd APSetup/Scripts
     ```
 6. Run the setup.sh script
     ```bash
