@@ -34,7 +34,7 @@ def create_table(file_path):
 
     # Print the table header
     print("{:<15} {:<18} {:<15} {:<20} {:<10}".format('Timestamp', 'MAC Address', 'IP Address', 'Hostname', 'Connected'))
-    print("="*75)
+    print("="*81)
 
     # Print the sorted data in a neat table format with connection status
     for data in data_list:
