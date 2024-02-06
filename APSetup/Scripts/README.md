@@ -53,15 +53,19 @@ Before you begin, make sure you have the following:
    ```bash
    git clone https://github.com/CamJak/SeniorDesign.git
     ```
-3. Checkout the add-ap-functionality branch
+3. Navigate to the directory
+   ```bash
+   cd SeniorDesign
+   ```
+4. Checkout the add-ap-functionality branch
    ```bash
    git checkout origin/add-ap-functionality
    ```
-4. Navigate to the Scripts directory of the APSetup folder
+5. Navigate to the Scripts directory of the APSetup folder
    ```bash
     cd SeniorDesign/APSetup/Scripts
     ```
-5. Run the setup.sh script
+6. Run the setup.sh script
     ```bash
     sudo bash setup.sh
     ```
