@@ -53,7 +53,7 @@ Before you begin, make sure you have the following:
    ```bash
    git clone https://github.com/CamJak/SeniorDesign.git
     ```
-3. Navigate to the directory
+3. Navigate to the Repository
    ```bash
    cd SeniorDesign
    ```
