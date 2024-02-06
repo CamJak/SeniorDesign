@@ -45,19 +45,23 @@ Before you begin, make sure you have the following:
 
 ## Step 3: Clone the GitHub Repository
 
-1. Run the following command to clone the GitHub repository:
+1. Install git by running the following command:
+   ```bash
+   sudo apt install git
+   ```
+2. Run the following command to clone the GitHub repository:
    ```bash
    git clone https://github.com/CamJak/SeniorDesign.git
     ```
-2. Checkout the add-ap-functionality branch
+3. Checkout the add-ap-functionality branch
    ```bash
    git checkout origin/add-ap-functionality
    ```
-3. Navigate to the Scripts directory of the APSetup folder
+4. Navigate to the Scripts directory of the APSetup folder
    ```bash
     cd SeniorDesign/APSetup/Scripts
     ```
-4. Run the setup.sh script
+5. Run the setup.sh script
     ```bash
     sudo bash setup.sh
     ```
