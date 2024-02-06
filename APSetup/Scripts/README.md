@@ -47,7 +47,7 @@ Before you begin, make sure you have the following:
 
 1. Install git by running the following command:
    ```bash
-   sudo apt install git
+   sudo apt install git -y
    ```
 2. Run the following command to clone the GitHub repository:
    ```bash
