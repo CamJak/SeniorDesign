@@ -8,16 +8,7 @@ h1 {
     color: #333;
 }
 
-form {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-div[class="container"] {
+div.container {
     margin: 10px;
     padding: 20px;
     background-color: #fff;
@@ -25,13 +16,26 @@ div[class="container"] {
     border-radius: 5px;
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
+div.container * {
+    margin-bottom: 13px;
 }
 
-input[type="text"],
+div.container p {
+    display: inline;
+    font-weight: bold;
+}
+
+div.container hr {
+    border-top: 5px solid #241e56;
+}
+
+input[type="text"] {
+    border-width: 2px;
+    border-radius: 4px;
+    width: 100px;
+    background-color: rgb(229, 229, 229);
+}
+
 input[type="password"] {
     width: 92%;
     padding: 10px;
@@ -41,11 +45,5 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    
 }

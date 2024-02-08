@@ -20,13 +20,16 @@
 
     <div class="container">
         <h2>Router Configuration Settings</h2>
-        <?php if (!empty($ipAddress)) { ?>
-            <p>Router IP Address: <?php echo $ipAddress; ?></p>
-        <?php } if (!empty($dns1)) { ?>
-            <p>Router DNS1: <?php echo $dns1; ?></p>
-        <?php } if (!empty($dns2)) { ?>
-            <p>Router DNS2: <?php echo $dns2; ?></p>
-        <?php } ?>
-    </div>
+        <form>
+            <hr>
+            <p>Router IP Address: </p>
+            <input type="text" id="ipAddress" value="<?php echo $ipAddress; ?>"></br>
+            <p>DNS 1: </p>
+            <input type="text" id="dns1" value="<?php echo $dns1; ?>"></br>
+            <p>DNS 2: </p>
+            <input type="text" id="dns2" value="<?php echo $dns2; ?>"></br>
+            <input type="submit" value="Save Changes">
+        </form>
+        </div>
 </body>
 </html>
