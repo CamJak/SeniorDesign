@@ -2,7 +2,7 @@
 
 output_dir="./tshark_outputs"
 dumpfile="trafficdump.pcap"
-num_packets="2000" # amount of packet to cap at a time
+num_packets="20" # amount of packet to cap at a time
 interface="any"
 
 # make necesary file structure for data storage
@@ -17,8 +17,28 @@ else
     chmod o+w $output_dir/$dumpfile
 fi
 
+
+test()
+{
+	echo "correct"
+}
+
+#capture all IPv4 HTTP packets to and from port 80,
+http()
+{
+	sudo tshark -i $interface -f "tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)" -w $output_dir/$dumpfile -c $num_packets
+}
+
+
+
+
 # run tshark to capture num_packets amount of packets 
-sudo tshark -i $interface -w $output_dir/$dumpfile -c $num_packets
+if [ -z "$1" ]; then
+	sudo tshark -i $interface -w $output_dir/$dumpfile -c $num_packets
+elif [ -n "$1" ]; then
+	$1
+fi
+
 
 # check for strange http user agents
 #echo "---- strange user agents: ----"
@@ -33,8 +53,8 @@ echo "---- end strange user agents. ----"
 
 #general analytics
 echo "---- general analytics: ----"
-tshark -r $output_dir/$dumpfile -z endpoints,tcp -q >> $output_dir/tcp_endpoint_analytics.txt
-#cat $output_dir/tcp_endpoint_analytics.txt
+tshark -r $output_dir/$dumpfile -z endpoints,tcp >> $output_dir/tcp_endpoint_analytics.txt
+cat $output_dir/tcp_endpoint_analytics.txt
 
 # Check if SSH port is open
 #if netstat -tuln | grep ':22'; then
