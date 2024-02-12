@@ -32,6 +32,7 @@ This site helped me get it running: https://www.cnblogs.com/my-blogs-for-everone
 Pages that helped me while writing php:
   - Code I used
     - https://www.simplilearn.com/tutorials/php-tutorial/php-login-form - the login form code
+    - https://www.php.net/manual/en/function.exec.php - good for running scripts!
 
   - Errors I encountered
     - https://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php
@@ -50,3 +51,8 @@ After doing some research I discovered that NGINX has the capability to handle o
 as well as to block outside IPs from accessing the page at all.
 
 - https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
+
+# The wonderful world of Javascript
+
+Using javascript makes charts a breeze!
+https://www.chartjs.org/docs/latest/charts/line.html

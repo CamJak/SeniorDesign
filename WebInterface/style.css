@@ -8,11 +8,31 @@ h1 {
     color: #333;
 }
 
-form {
-    max-width: 300px;
-    margin: 0 auto;
+div.container {
+    margin: 10px;
     padding: 20px;
     background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div.container * {
+    margin-bottom: 13px;
+}
+
+div.container p {
+    display: inline;
+    font-weight: bold;
+}
+
+div.container hr {
+    border-top: 5px solid #241e56;
+}
+
+div.graph {
+    margin: 10px;
+    padding: 20px;
+    background-color: #7e7e7e;
     border: 1px solid #ccc;
     border-radius: 5px;
 }

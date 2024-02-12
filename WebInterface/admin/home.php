@@ -22,12 +22,9 @@
         <h2>Router Configuration Settings</h2>
         <form action="request.php" method="post">
             <hr>
-            <p>Router IP Address: </p>
-            <input type="text" id="ipAddress" name="ipAddress" value="<?php echo $ipAddress; ?>"></br>
-            <p>DNS 1: </p>
-            <input type="text" id="dns1" name="dns1" value="<?php echo $dns1; ?>"></br>
-            <p>DNS 2: </p>
-            <input type="text" id="dns2" name="dns2" value="<?php echo $dns2; ?>"></br>
+            <p>Router IP Address: </p><input type="text" id="ipAddress" name="ipAddress" value="<?php echo $ipAddress; ?>"></br>
+            <p>DNS 1: </p><input type="text" id="dns1" name="dns1" value="<?php echo $dns1; ?>"></br>
+            <p>DNS 2: </p><input type="text" id="dns2" name="dns2" value="<?php echo $dns2; ?>"></br>
             <input type="submit" value="Save Changes">
         </form>
         </div>
