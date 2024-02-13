@@ -8,33 +8,25 @@ h1 {
     color: #333;
 }
 
-div.container {
-    margin: 10px;
+.container {
+    margin: 10px auto;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-div.container * {
+.container * {
     margin-bottom: 13px;
 }
 
-div.container p {
+.container p {
     display: inline;
     font-weight: bold;
 }
 
-div.container hr {
+.container hr {
     border-top: 5px solid #241e56;
-}
-
-div.graph {
-    margin: 10px;
-    padding: 20px;
-    background-color: #7e7e7e;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 label {
@@ -60,4 +52,10 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.canvas {
+    display: inline-block;
+    width: 49%;
+    height: 30%;
 }
