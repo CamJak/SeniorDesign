@@ -20,38 +20,15 @@ h1 {
     margin-bottom: 13px;
 }
 
-.container p {
-    display: inline;
-    font-weight: bold;
-}
-
-.container hr {
+hr {
     border-top: 5px solid #241e56;
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 92%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+p {
+    font-weight: bold;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .canvas {

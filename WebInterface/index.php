@@ -16,6 +16,7 @@
     <div class="container">
         <div>
             <p>Welcome to the CSNA Landing Page!</p>
+            <hr>
         </div>
         <div>
             <div class="canvas">
