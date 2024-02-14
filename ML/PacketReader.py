@@ -6,8 +6,9 @@ from os import environ
 
 
 class SessionTracker:
-    def __init__(self):
+    def __init__(self, cb=None):
         self.raw_sessions = defaultdict(list)
+        self.callback = cb
 
     def add_packet(self, packet):
         #determine the session_id
@@ -165,16 +166,19 @@ class SessionTracker:
 
     #ideally this will be changed to instead send the features through the network to the model
     def write_session(self, features):
-        for key, value in features.items():
-            print(f"{key}: {value}")
-        print("\n\n")
+        if(self.callback):
+            self.callback(features)
+        else:
+            for key, value in features.items():
+                print(f"{key}: {value}")
+            print("\n\n")
         # with open("features.csv", "a") as f:
         #     f.write(",".join([str(features[feature]) for feature in features]))
         #     f.write("\n")
 
 
-#instantiating the session tracker
-tracker = SessionTracker()
+# #instantiating the session tracker
+# tracker = SessionTracker()
 
-#start sniffing packets
-sniff(iface="enp0s3", prn=lambda x: tracker.add_packet(x) if TCP in x else None)
+# #start sniffing packets
+# sniff(iface="enp0s3", prn=lambda x: tracker.add_packet(x) if TCP in x else None)
