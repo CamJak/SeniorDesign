@@ -1,30 +1,57 @@
-// Grab html element to place chart inside
-const cdChart = document.getElementById('connectedDevices');
+function addData(chart, label, newData) {
+    chart.data.labels.push(label);
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.push(newData);
+    });
+    chart.update();
+}
 
-// Generate random data
-let randData = [...Array(10)].map(e=>Math.floor(Math.random()*51));
-// Generate dummy labels
-labels = [...Array(10).keys()].map(i=>'May '+(i+1));
+function removeData(chart) {
+    chart.data.labels.shift();
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.shift();
+    });
+    chart.update();
+}
 
-// Create data object for chart
-const data = {
-    labels: labels,
-    datasets: [{
-        label: 'Connected Devices',
-        data: randData
-    }]
-};
+// Update chart with new random value
+function updateChartCD(chart) {
+    addData(chart, 'May 10', ~~(Math.random()*51));
+    removeData(chart);
+    setTimeout(function(){updateChartCD(chart)},10000);
+}
 
-// Set config for chart
-const config = {
-    type: 'line',
-    data: data,
-    options: {},
-};
+function createChartCD() {
+    // Grab html element to place chart inside
+    const cdChart = document.getElementById('connectedDevices');
 
-// Generate chart within html element
-new Chart(cdChart, config);
+    // Generate random data
+    let randData = [...Array(10)].map(e=>~~(Math.random()*51));
+    // Generate dummy labels
+    let labels = [...Array(10).keys()].map(i=>'May '+(i+1));
 
+    // Create data object for chart
+    let data = {
+        labels: labels,
+        datasets: [{
+            label: 'Connected Devices',
+            data: randData
+        }]
+    };
+
+    // Set config for chart
+    let config = {
+        type: 'line',
+        data: data,
+        options: {},
+    };
+
+    // Generate chart within html element
+    let chartObj = new Chart(cdChart, config);
+
+    // Update chart continually
+    updateChartCD(chartObj);
+}
 
 
 // Grab html element to place chart inside
@@ -55,3 +82,5 @@ const config2 = {
 
 // Generate chart within html element
 new Chart(ntChart, config2);
+
+createChartCD();
