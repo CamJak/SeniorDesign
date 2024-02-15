@@ -37,6 +37,7 @@ Pages that helped me while writing php:
   - Errors I encountered
     - https://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php
     - https://stackoverflow.com/questions/67963371/load-a-env-file-with-php
+    - Changed perms for setupVars file to 777 so that php could write to file (there may be a better solution?)
 
 # Testing PHP locally
 
