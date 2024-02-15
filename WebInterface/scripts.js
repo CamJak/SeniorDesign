@@ -6,7 +6,7 @@ function addData(chart, label, newData) {
     chart.update();
 }
 
-function removeData(chart) {
+function removeOldestData(chart) {
     chart.data.labels.shift();
     chart.data.datasets.forEach((dataset) => {
         dataset.data.shift();
@@ -17,7 +17,7 @@ function removeData(chart) {
 // Update chart with new random value
 function updateChartCD(chart) {
     addData(chart, 'May 10', ~~(Math.random()*51));
-    removeData(chart);
+    removeOldestData(chart);
     setTimeout(function(){updateChartCD(chart)},10000);
 }
 
@@ -53,34 +53,36 @@ function createChartCD() {
     updateChartCD(chartObj);
 }
 
+function createChartNT() {
+    // Grab html element to place chart inside
+    const ntChart = document.getElementById('networkTraffic');
 
-// Grab html element to place chart inside
-const ntChart = document.getElementById('networkTraffic');
+    // Generate random data
+    let randData2 = [...Array(10)].map(e=>(Math.floor(Math.random()*51))+45);
+    // Generate dummy labels
+    let labels2 = [...Array(10).keys()].map(i=>'May '+(i+1));
 
-// Generate random data
-let randData2 = [...Array(10)].map(e=>(Math.floor(Math.random()*51))+45);
-// Generate dummy labels
-let labels2 = [...Array(10).keys()].map(i=>'May '+(i+1));
+    // Create data object for chart
+    const data2 = {
+        labels: labels2,
+        datasets: [{
+            label: 'Network Traffic (GB)',
+            data: randData2
+        }]
+    };
 
-// Create data object for chart
-const data2 = {
-    labels: labels2,
-    datasets: [{
-        label: 'Network Traffic (GB)',
-        data: randData2
-    }]
-};
+    // Set config for chart
+    const config2 = {
+        type: 'bar',
+        data: data2,
+        options: {
+            backgroundColor: 'rgba(231, 32, 37, 0.83)' //red
+        },
+    };
 
-// Set config for chart
-const config2 = {
-    type: 'bar',
-    data: data2,
-    options: {
-        backgroundColor: 'rgba(231, 32, 37, 0.83)' //red
-    },
-};
-
-// Generate chart within html element
-new Chart(ntChart, config2);
+    // Generate chart within html element
+    new Chart(ntChart, config2);
+}
 
 createChartCD();
+createChartNT();
