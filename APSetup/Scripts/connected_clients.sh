@@ -2,8 +2,8 @@
 
 # Variables
 cls_output=1
-json_output=0
-input_file="/etc/csna/dhcp.leases"
+json_output=1
+input_file="/etc/cnsa/dhcp.leases"
 
 # Get the data from the input file
 Timestamps=($(awk '{print $1}' $input_file))
@@ -62,6 +62,39 @@ fi
 
 if [ $json_output = 1 ] && [ $cls_output = 0 ]; 
 then
+    n=${#Timestamps[@]}
+    n=$((n-1))
+    for i in "${!Timestamps[@]}"; 
+    do
+        if [ $i -eq 0 ]; 
+        then
+            echo -e "{{ \"client$i\": {\"Timestamp\": \"${Timestamps[$i]}\", \"MAC Address\": \"${MAC_Addresses[$i]}\", \"IP Address\": \"${IP_Addresses[$i]}\", \"Hostname\": \"${Hostnames[$i]}\"}},"
+        elif [ $i -eq $n ]; 
+        then
+            echo -e "{ \"client$i\": {\"Timestamp\": \"${Timestamps[$i]}\", \"MAC Address\": \"${MAC_Addresses[$i]}\", \"IP Address\": \"${IP_Addresses[$i]}\", \"Hostname\": \"${Hostnames[$i]}\"}}}"
+        else
+            echo -e "{ \"client$i\": {\"Timestamp\": \"${Timestamps[$i]}\", \"MAC Address\": \"${MAC_Addresses[$i]}\", \"IP Address\": \"${IP_Addresses[$i]}\", \"Hostname\": \"${Hostnames[$i]}\"}},"
+        fi
+    done
+fi
+
+if [ $json_output = 1 ] && [ $cls_output = 1 ]; 
+then
+    echo ""
+    echo "Command Line Output"
+    echo ""
+
+    echo -e "Timestamp\tMAC Address\t\tIP Address\tHostname"
+    echo "-------------------------------------------------------------------------"
+    for i in "${!Timestamps[@]}"; 
+    do
+        echo -e "${Timestamps[$i]}\t${MAC_Addresses[$i]}\t${IP_Addresses[$i]}\t${Hostnames[$i]}"
+    done
+
+    echo ""
+    echo "JSON Output"
+    echo ""
+
     n=${#Timestamps[@]}
     n=$((n-1))
     for i in "${!Timestamps[@]}"; 
