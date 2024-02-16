@@ -1,0 +1,94 @@
+wlan2     Scan completed :
+          Cell 01 - Address: B4:5D:50:75:1D:A0
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=70/70  Signal level=-29 dBm  
+                    Encryption key:on
+                    ESSID:"LaTechWPA2"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000011c19069db5
+                    Extra: Last beacon: 44ms ago
+                    IE: Unknown: 000A4C615465636857504132
+                    IE: Unknown: 010698A43048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B24
+                    IE: Unknown: 200100
+                    IE: Unknown: 23021200
+                    IE: Unknown: 2A0100
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: 0B050000148671
+                    IE: Unknown: 460573C0010000
+                    IE: Unknown: 33040C01060B
+                    IE: Unknown: 4306000C86718671
+                    IE: Unknown: 2D1AAD1917FFFFFF0000000000000000000000000000000000000000
+                    IE: Unknown: 3D160B080000000000000000000000000000000000000000
+                    IE: Unknown: 4A0E14000A002C01C800140005001900
+                    IE: Unknown: 7F080500080000400040
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD1E00904C0408BF0C9241820FC0FF0000C0FF0000C0050000000000C3020032
+          Cell 02 - Address: B4:5D:50:75:1D:A1
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=70/70  Signal level=-29 dBm  
+                    Encryption key:on
+                    ESSID:"eduroam12345678903942"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000011c19069ee0
+                    Extra: Last beacon: 44ms ago
+                    IE: Unknown: 0007656475726F616D
+                    IE: Unknown: 010698A43048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B24
+                    IE: Unknown: 200100
+                    IE: Unknown: 23021200
+                    IE: Unknown: 2A0100
+                    IE: IEEE 802.11i/WPA2 Version 1
+                        Group Cipher : CCMP
+                        Pairwise Ciphers (1) : CCMP
+                        Authentication Suites (1) : 802.1x
+                    IE: Unknown: 0B050000148671
+                    IE: Unknown: 460573C0010000
+                    IE: Unknown: 33040C01060B
+                    IE: Unknown: 4306000C86718671
+                    IE: Unknown: 2D1AAD1917FFFFFF0000000000000000000000000000000000000000
+                    IE: Unknown: 3D160B080000000000000000000000000000000000000000
+                    IE: Unknown: 4A0E14000A002C01C800140005001900
+                    IE: Unknown: 7F080500080000400040
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD1E00904C0408BF0C9241820FC0FF0000C0FF0000C0050000000000C3020032
+          Cell 03 - Address: B4:5D:50:75:1D:A2
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=70/70  Signal level=-29 dBm  
+                    Encryption key:off
+                    ESSID:"LaTech OpenAir"
+                    Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
+                              54 Mb/s
+                    Mode:Master
+                    Extra:tsf=0000011c1906a013
+                    Extra: Last beacon: 44ms ago
+                    IE: Unknown: 000E4C6154656368204F70656E416972
+                    IE: Unknown: 010698A43048606C
+                    IE: Unknown: 03010B
+                    IE: Unknown: 0706555320010B24
+                    IE: Unknown: 200100
+                    IE: Unknown: 23021200
+                    IE: Unknown: 2A0100
+                    IE: Unknown: 0B050000148671
+                    IE: Unknown: 460573C0010000
+                    IE: Unknown: 33040C01060B
+                    IE: Unknown: 4306000C86718671
+                    IE: Unknown: 2D1AAD1917FFFFFF0000000000000000000000000000000000000000
+                    IE: Unknown: 3D160B080000000000000000000000000000000000000000
+                    IE: Unknown: 4A0E14000A002C01C800140005001900
+                    IE: Unknown: 7F080500080000400040
+                    IE: Unknown: DD180050F2020101800003A4000027A4000042435E0062322F00
+                    IE: Unknown: DD1E00904C0408BF0C9241820FC0FF0000C0FF0000C0050000000000C3020032
+
