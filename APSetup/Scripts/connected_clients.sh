@@ -1,41 +1,79 @@
 #!/usr/bin/env bash
 
+# Variables
+cls_output=1
+json_output=0
 input_file="/etc/csna/dhcp.leases"
-output_file="/etc/csna/modified_dhcp.leases"
 
-awk '{print $3}' $input_file | sort | uniq | while read index
+# Get the data from the input file
+Timestamps=($(awk '{print $1}' $input_file))
+MAC_Addresses=($(awk '{print $2}' $input_file))
+IP_Addresses=($(awk '{print $3}' $input_file))
+
+while read -r line;
 do
-    awk -v var=$index '$3 == var { print $0}' $input_file
-done > $output_file
-
-echo -e "Timestamp\tMAC Address\t\tIP Address\tHostname\tStatus"
-echo "-----------------------------------------------------------------------------------------"
-
-while read -r var1 var2 var3 var4 var5 ; do
-
-    timestamp=$(echo $var1)
-    mac_address=$(echo $var2)
-    ip_address=$(echo $var3)
-    hostname=$(echo "$var4") 
-
-    num_chars=$(echo -n "$hostname" | wc -c)
-
-    if [ $num_chars -lt 8 ]; then
-        connected="\t\tUnknown"
+    data=$(echo "$line" | awk '{print $4}')
+    if [ "$data" = "*" ]; 
+    then
+        Hostnames+=("N/A")
     else
-        connected="\tUnknown"
+        Hostnames+=("$data")
     fi
+done < "$input_file"
 
-    clients=$(ping -c 1 -w 2 $var3 > /dev/null)
-
-    if [ $? -eq 0 ]; then
-        if [ "$hostname" == "*" ]; then
-                connected="\t\tConnected"
-        else
-                connected="\tConnected"
+n=${#IP_Addresses[@]}  
+for ((i = 0; i < n - 1; i++)); 
+do
+    min_idx=$i
+    for ((j = i + 1; j < n; j++)); 
+    do
+        data1=$(echo ${IP_Addresses[$j]} | awk -F. '{print $1$2$3$4}')
+        data2=$(echo ${IP_Addresses[$min_idx]} | awk -F. '{print $1$2$3$4}')
+        if (( data1 < data2)); then
+            min_idx=$j
         fi
-    fi
+    done
+    # Swap the elements
+    temp_timestamp=${Timestamps[$i]}
+    temp_ip=${IP_Addresses[$i]}
+    temp_mac=${MAC_Addresses[$i]}
+    temp_hostname=${Hostnames[$i]}
 
-    echo -e "$timestamp\t$mac_address\t$ip_address\t$hostname$connected"
-    
-done < $output_file
+    Timestamps[$i]=${Timestamps[$min_idx]}
+    IP_Addresses[$i]=${IP_Addresses[$min_idx]}
+    MAC_Addresses[$i]=${MAC_Addresses[$min_idx]}
+    Hostnames[$i]=${Hostnames[$min_idx]}
+
+    Timestamps[$min_idx]=$temp_timestamp
+    IP_Addresses[$min_idx]=$temp_ip
+    MAC_Addresses[$min_idx]=$temp_mac
+    Hostnames[$min_idx]=$temp_hostname
+done
+
+if [ $cls_output = 1 ] && [ $json_output = 0 ]; 
+then
+    echo -e "Timestamp\tMAC Address\t\tIP Address\tHostname"
+    echo "-------------------------------------------------------------------------"
+    for i in "${!Timestamps[@]}"; 
+    do
+        echo -e "${Timestamps[$i]}\t${MAC_Addresses[$i]}\t${IP_Addresses[$i]}\t${Hostnames[$i]}"
+    done
+fi
+
+if [ $json_output = 1 ] && [ $cls_output = 0 ]; 
+then
+    n=${#Timestamps[@]}
+    n=$((n-1))
+    for i in "${!Timestamps[@]}"; 
+    do
+        if [ $i -eq 0 ]; 
+        then
+            echo -e "{{ \"client$i\": {\"Timestamp\": \"${Timestamps[$i]}\", \"MAC Address\": \"${MAC_Addresses[$i]}\", \"IP Address\": \"${IP_Addresses[$i]}\", \"Hostname\": \"${Hostnames[$i]}\"}},"
+        elif [ $i -eq $n ]; 
+        then
+            echo -e "{ \"client$i\": {\"Timestamp\": \"${Timestamps[$i]}\", \"MAC Address\": \"${MAC_Addresses[$i]}\", \"IP Address\": \"${IP_Addresses[$i]}\", \"Hostname\": \"${Hostnames[$i]}\"}}}"
+        else
+            echo -e "{ \"client$i\": {\"Timestamp\": \"${Timestamps[$i]}\", \"MAC Address\": \"${MAC_Addresses[$i]}\", \"IP Address\": \"${IP_Addresses[$i]}\", \"Hostname\": \"${Hostnames[$i]}\"}},"
+        fi
+    done
+fi
