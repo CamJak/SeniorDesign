@@ -2,7 +2,8 @@
 
 output_dir="./tshark_outputs"
 dumpfile="trafficdump.pcap"
-num_packets="20" # amount of packet to cap at a time
+num_packets="600" # amount of packet to cap at a time
+http_packets="20"
 interface="any"
 
 # make necesary file structure for data storage
@@ -26,7 +27,7 @@ test()
 #capture all IPv4 HTTP packets to and from port 80,
 http()
 {
-	sudo tshark -i $interface -f "tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)" -w $output_dir/$dumpfile -c $num_packets
+	sudo tshark -i $interface -f "tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)" -w $output_dir/$dumpfile -c $http_packets
 }
 
 
