@@ -2,7 +2,7 @@
 
 output_dir="./tshark_outputs"
 dumpfile="trafficdump.pcap"
-num_packets="600" # amount of packet to cap at a time
+num_packets="200" # amount of packet to cap at a time
 http_packets="20"
 interface="any"
 
@@ -30,10 +30,38 @@ http()
 	sudo tshark -i $interface -f "tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)" -w $output_dir/$dumpfile -c $http_packets
 }
 
+#portrange()
+#{
+#	sudo tshark -i $interface -f "portrange $2-$3" -w $output_dir/$dumpfile -c $num_packets
+#}
+
+#captures all packets on port 430
+port430()
+{
+	sudo tshark -i $interface -f "port 430" -w $output_dir/$dumpfile -c $num_packets
+}
+
+#captures all packets larger than 120 bytes
+bytes120()
+{
+	sudo tshark -i $interface -f "gateway snup and ip[2:2] > 120" -w $output_dir/$dumpfile -c $num_packets
+}
+
+#capture the starting and endings packets in TCP conversations
+startend()
+{
+	sudo tshark -i $interface -f "tcp[tcpflags] & (tcp-syn|tcp-fin) != 0 and not src and dst net localnet" -w $output_dir/$dumpfile -c $num_packets
+}
+
+#capture all ICMP packets that are not echo requests/replies
+ICMP()
+{
+	sudo tshark -i $interface -f "icmp[icmptype] != icmp-echo and icmp[icmptype] != icmp-echoreply" -w $output_dir/$dumpfile -c $num_packets
+}
 
 
 
-# run tshark to capture num_packets amount of packets 
+# run tshark to capture num_packets amount of packets
 if [ -z "$1" ]; then
 	sudo tshark -i $interface -w $output_dir/$dumpfile -c $num_packets
 elif [ -n "$1" ]; then
@@ -53,9 +81,9 @@ fi
 echo "---- end strange user agents. ----"
 
 #general analytics
-echo "---- general analytics: ----"
-tshark -r $output_dir/$dumpfile -z endpoints,tcp >> $output_dir/tcp_endpoint_analytics.txt
-cat $output_dir/tcp_endpoint_analytics.txt
+#echo "---- general analytics: ----"
+#tshark -r $output_dir/$dumpfile -z endpoints,tcp >> $output_dir/tcp_endpoint_analytics.txt
+#cat $output_dir/tcp_endpoint_analytics.txt
 
 # Check if SSH port is open
 #if netstat -tuln | grep ':22'; then
