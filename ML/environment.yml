@@ -10,3 +10,4 @@ dependencies:
   - anaconda::jupyter
   - conda-forge::scapy
   - pandas
+  - pyarrow
