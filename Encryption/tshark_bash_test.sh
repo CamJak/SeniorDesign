@@ -81,9 +81,9 @@ fi
 echo "---- end strange user agents. ----"
 
 #general analytics
-#echo "---- general analytics: ----"
-#tshark -r $output_dir/$dumpfile -z endpoints,tcp >> $output_dir/tcp_endpoint_analytics.txt
-#cat $output_dir/tcp_endpoint_analytics.txt
+echo "---- general analytics: ----"
+tshark -r $output_dir/$dumpfile -z endpoints,tcp >> $output_dir/tcp_endpoint_analytics.txt
+cat $output_dir/tcp_endpoint_analytics.txt
 
 # Check if SSH port is open
 #if netstat -tuln | grep ':22'; then
