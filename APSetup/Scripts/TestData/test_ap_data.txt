@@ -1,0 +1,21 @@
+wlan0     Scan completed :
+          Cell 01 - Address: 00:11:22:33:44:55
+                    ESSID:"MyWiFiNetwork"
+                    Protocol:IEEE 802.11g
+                    Mode:Master
+                    Frequency:2.437 GHz (Channel 6)
+                    Encryption key:on
+                    Bit Rates:54 Mb/s
+                    Quality=95/100  Signal level=-45 dBm  
+                    IE: WPA Version 1
+                        Group Cipher : TKIP
+                        Pairwise Ciphers (1) : TKIP
+                        Authentication Suites (1) : PSK
+          Cell 02 - Address: 66:77:88:99:AA:BB
+                    ESSID:"GuestNetwork"
+                    Protocol:IEEE 802.11n
+                    Mode:Managed
+                    Frequency:2.462 GHz (Channel 11)
+                    Encryption key:off
+                    Bit Rates:300 Mb/s
+                    Quality=70/100  Signal level=-75 dBm  
