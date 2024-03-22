@@ -5,6 +5,8 @@ dumpfile="trafficdump.pcap"
 num_packets="40" # amount of packet to cap at a time
 interface="any"
 
+common_bad_ports=("20" "21" "23" "80" "137" "139" "161" "443" "445" "1080" "3389" "4444" "6660" "6661" "6662" "6663" "6664" "6665" "6666" "6667" "6668" "6669" "8080" "8443" "31337")
+
 # make necesary file structure for data storage
 if [ ! -d "$output_dir" ]; then
     mkdir $output_dir
@@ -35,22 +37,26 @@ echo "---- end strange user agents. ----"
 echo "---- general analytics: ----"
 tshark -r $output_dir/$dumpfile -z endpoints,tcp -q > $output_dir/tcp_endpoint_analytics.txt
 cat $output_dir/tcp_endpoint_analytics.txt
-
-# Check if SSH port is open
-if netstat -tuln | grep ':22'; then
-    echo "Warning: SSH port is open!"
-
-    # Check for potentially vulnerable or compromised states
-    netstat -tuln | awk '$6 != "CLOSED" {print "Potentially vulnerable state:", $0}'
-
-    # Use tshark to scan for traffic on the SSH port
-    echo "Scanning for SSH traffic..."
-    sudo tshark -i any -f "port 22" -O ssh
-else
-    echo "SSH port is not open."
-fi
 echo "---- end general analytics ----"
 
+
+#port scanner
+# Use netstat to get a list of all open ports
+echo "---- begin looking for open ports ----"
+open_ports=$(netstat -tuln | awk '{print $4}' | grep -oE '[0-9]*$')
+echo "open ports:\n $open_ports"
+
+# Iterate over the open ports
+for open_port in $open_ports; do
+    # Check if the open port is in the list of known ports
+    for known_port in "${common_bad_ports[@]}"; do
+        if [[ $open_port == $bad_port ]]; then
+            echo "Port $open_port is open and is potentially dangerous."
+        fi
+    done
+done
+
+echo "---- end looking for open ports ----"
 #### USE nslookup [IP] to resolve ip addresses on network
 
 echo "program finished"
