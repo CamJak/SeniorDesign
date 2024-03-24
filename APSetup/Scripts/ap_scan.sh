@@ -2,7 +2,7 @@
 
 # Variables
 cls_output=1
-json_output=1
+json_output=0
 
 # This script is used to scan the available APs and display the results
 iw_output=$(sudo iwlist wlan2 scan)
@@ -20,16 +20,16 @@ Signals=($Signal)
 
 if [ $cls_output = 1 ] && [ $json_output = 0 ]; 
 then
-    echo -e "ESSID\t\t\tFrequency\tChannel\tQuality\tSignal"
+    echo -e "\tESSID\t\t\tFrequency\tChannel\tQuality\tSignal"
     echo "-------------------------------------------------------------------------"
     j=1
     for i in ${!Channels[@]}; 
     do
         if [ $(echo $ESSID | awk -F',' '{print $'$j'}' | wc -c) -lt 18 ]; 
         then
-            echo -e $(echo $ESSID | awk -F',' '{print $'$j'}')"\t\t"${Frequencies[$i]} GHz"\t\t"${Channels[$i]}"\t"${Qualities[$i]}"\t"${Signals[$i]} dBm
+            echo -e $(echo $ESSID | awk -F',' ''$j'\t{print $'$j'}')"\t\t"${Frequencies[$i]} GHz"\t\t"${Channels[$i]}"\t"${Qualities[$i]}"\t"${Signals[$i]} dBm
         else
-            echo -e $(echo $ESSID | awk -F',' '{print $'$j'}')"\t"${Frequencies[$i]} GHz"\t\t"${Channels[$i]}"\t"${Qualities[$i]}"\t"${Signals[$i]} dBm
+            echo -e $(echo $ESSID | awk -F',' ''$j'{print $'$j'}')"\t"${Frequencies[$i]} GHz"\t\t"${Channels[$i]}"\t"${Qualities[$i]}"\t"${Signals[$i]} dBm
         fi
         j=$((j+1))
     done

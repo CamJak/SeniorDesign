@@ -3,7 +3,7 @@
 # Variables
 cls_output=1
 json_output=1
-input_file="/etc/cnsa/dhcp.leases"
+input_file="TestData/test_dhcp_data.txt"
 
 # Get the data from the input file
 Timestamps=($(awk '{print $1}' $input_file))
