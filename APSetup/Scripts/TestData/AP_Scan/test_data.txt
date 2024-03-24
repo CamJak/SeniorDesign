@@ -4,7 +4,7 @@ wlan2     Scan completed :
                     Frequency:2.462 GHz (Channel 11)
                     Quality=70/70  Signal level=-29 dBm  
                     Encryption key:on
-                    ESSID:"LaTechWPA2"
+                    ESSID:"LaTechWPA2akdjfHellosfdfsdfsdfsdf"
                     Bit Rates:12 Mb/s; 18 Mb/s; 24 Mb/s; 36 Mb/s; 48 Mb/s
                               54 Mb/s
                     Mode:Master
