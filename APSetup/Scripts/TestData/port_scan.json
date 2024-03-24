@@ -1,0 +1,70 @@
+{
+    "127.0.0.1": {
+        "hostnames": [
+            {
+                "name": "localhost",
+                "type": "user"
+            }
+        ],
+        "addresses": {
+            "ipv4": "127.0.0.1"
+        },
+        "vendor": {},
+        "status": {
+            "state": "up",
+            "reason": "localhost-response"
+        },
+        "tcp": {
+            "135": {
+                "state": "open",
+                "reason": "syn-ack",
+                "name": "msrpc",
+                "product": "Microsoft Windows RPC",
+                "version": "",
+                "extrainfo": "",
+                "conf": "10",
+                "cpe": "cpe:/o:microsoft:windows"
+            },
+            "137": {
+                "state": "filtered",
+                "reason": "no-response",
+                "name": "netbios-ns",
+                "product": "",
+                "version": "",
+                "extrainfo": "",
+                "conf": "3",
+                "cpe": ""
+            },
+            "445": {
+                "state": "open",
+                "reason": "syn-ack",
+                "name": "microsoft-ds",
+                "product": "",
+                "version": "",
+                "extrainfo": "",
+                "conf": "3",
+                "cpe": ""
+            },
+            "902": {
+                "state": "open",
+                "reason": "syn-ack",
+                "name": "vmware-auth",
+                "product": "VMware Authentication Daemon",
+                "version": "1.10",
+                "extrainfo": "Uses VNC, SOAP",
+                "conf": "10",
+                "cpe": ""
+            },
+            "912": {
+                "state": "open",
+                "reason": "syn-ack",
+                "name": "vmware-auth",
+                "product": "VMware Authentication Daemon",
+                "version": "1.0",
+                "extrainfo": "Uses VNC, SOAP",
+                "conf": "10",
+                "cpe": ""
+            }
+        }
+    }
+}

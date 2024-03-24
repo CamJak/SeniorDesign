@@ -1,0 +1,227 @@
+{
+    "5C:53:C3:65:AA:9A": {
+        "SSID": "MyShit",
+        "Channel": "1",
+        "Frequency": "2.412",
+        "Quality": "65",
+        "Signal": "-45",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:11:62:B0:5C:96": {
+        "SSID": "ARLO_VMB_7961653366",
+        "Channel": "1",
+        "Frequency": "2.412",
+        "Quality": "52",
+        "Signal": "-58",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:42:FF:8E": {
+        "SSID": "MyAltice 42ff8b",
+        "Channel": "1",
+        "Frequency": "2.412",
+        "Quality": "64",
+        "Signal": "-46",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:DD:3C:68": {
+        "SSID": "MyAltice dd3c65",
+        "Channel": "1",
+        "Frequency": "2.412",
+        "Quality": "55",
+        "Signal": "-55",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "C8:2E:47:5F:1A:19": {
+        "SSID": "suddenlink.net-8BB3",
+        "Channel": "1",
+        "Frequency": "2.412",
+        "Quality": "58",
+        "Signal": "-52",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A8:47:4A:F4:1F:7F": {
+        "SSID": "PS4-B8E0EE7F2D23",
+        "Channel": "6",
+        "Frequency": "2.437",
+        "Quality": "70",
+        "Signal": "-36",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "94:A6:7E:FC:CA:17": {
+        "SSID": "NETGEAR72",
+        "Channel": "6",
+        "Frequency": "2.437",
+        "Quality": "53",
+        "Signal": "-57",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "2C:99:24:EA:FA:49": {
+        "SSID": "suddenlink.net-FA4B",
+        "Channel": "6",
+        "Frequency": "2.437",
+        "Quality": "49",
+        "Signal": "-61",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "94:4E:5B:35:AB:24": {
+        "SSID": "pennyjane",
+        "Channel": "11",
+        "Frequency": "2.462",
+        "Quality": "44",
+        "Signal": "-66",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "2C:99:24:DE:8B:B1": {
+        "SSID": "suddenlink.net-8BB3",
+        "Channel": "11",
+        "Frequency": "2.462",
+        "Quality": "68",
+        "Signal": "-42",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:42:FF:8F": {
+        "SSID": "MyAltice 42ff8b",
+        "Channel": "40",
+        "Frequency": "5.2",
+        "Quality": "40",
+        "Signal": "-70",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "5C:53:C3:6D:5A:F5": {
+        "SSID": "MyOptimum 6d5af1",
+        "Channel": "40",
+        "Frequency": "5.2",
+        "Quality": "32",
+        "Signal": "-78",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:20:26:D3": {
+        "SSID": "MyAltice 2026cf",
+        "Channel": "40",
+        "Frequency": "5.2",
+        "Quality": "32",
+        "Signal": "-78",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:31:BE:0F": {
+        "SSID": "MyAltice 31be0b",
+        "Channel": "40",
+        "Frequency": "5.2",
+        "Quality": "33",
+        "Signal": "-77",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:DD:3C:69": {
+        "SSID": "MyAltice dd3c65",
+        "Channel": "40",
+        "Frequency": "5.2",
+        "Quality": "30",
+        "Signal": "-80",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "2C:99:24:EA:FA:4E": {
+        "SSID": "suddenlink.net-FA4B-5G",
+        "Channel": "48",
+        "Frequency": "5.24",
+        "Quality": "39",
+        "Signal": "-71",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "2C:99:24:DE:8B:B6": {
+        "SSID": "suddenlink.net-8BB3-5G",
+        "Channel": "48",
+        "Frequency": "5.24",
+        "Quality": "70",
+        "Signal": "-38",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "3A:22:E2:95:10:34": {
+        "SSID": "DIRECT-34-HP OfficeJet Pro 8020",
+        "Channel": "48",
+        "Frequency": "5.24",
+        "Quality": "70",
+        "Signal": "-34",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "5C:53:C3:AD:92:3F": {
+        "SSID": "MyOptimum ad923b",
+        "Channel": "149",
+        "Frequency": "5.745",
+        "Quality": "31",
+        "Signal": "-79",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:C5:3A:BB": {
+        "SSID": "MyOptimum c53ab7",
+        "Channel": "149",
+        "Frequency": "5.745",
+        "Quality": "34",
+        "Signal": "-76",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "5C:53:C3:65:AA:9B": {
+        "SSID": "MyShit",
+        "Channel": "149",
+        "Frequency": "5.745",
+        "Quality": "50",
+        "Signal": "-60",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "A4:CF:D2:41:83:AF": {
+        "SSID": "3rdFloorWiFi",
+        "Channel": "149",
+        "Frequency": "5.745",
+        "Quality": "24",
+        "Signal": "-86",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "94:A6:7E:FC:CA:18": {
+        "SSID": "NETGEAR72-5G",
+        "Channel": "153",
+        "Frequency": "5.765",
+        "Quality": "30",
+        "Signal": "-80",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "94:4E:5B:35:AB:25": {
+        "SSID": "pennyjane",
+        "Channel": "153",
+        "Frequency": "5.765",
+        "Quality": "25",
+        "Signal": "-85",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    },
+    "74:B6:B6:71:03:E6": {
+        "SSID": "Apter Mesh",
+        "Channel": "157",
+        "Frequency": "5.785",
+        "Quality": "33",
+        "Signal": "-77",
+        "Encryption": "WPA2",
+        "Authentication": "PSK"
+    }
+}

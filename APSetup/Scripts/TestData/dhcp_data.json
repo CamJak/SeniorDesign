@@ -1,0 +1,32 @@
+{
+    "10.0.1.7": {
+        "Timestamp": "1708050428",
+        "MAC Address": "7e:11:1f:d3:42:82",
+        "Hostname": "N/A"
+    },
+    "192.168.1.72": {
+        "Timestamp": "1613467000",
+        "MAC Address": "66:77:88:99:AA:B3",
+        "Hostname": "AnotherDevice"
+    },
+    "192.168.1.83": {
+        "Timestamp": "1613466900",
+        "MAC Address": "66:77:88:99:AA:B2",
+        "Hostname": "AnotherDevice"
+    },
+    "192.168.1.101": {
+        "Timestamp": "1613466500",
+        "MAC Address": "00:11:22:33:44:55",
+        "Hostname": "MyDevice"
+    },
+    "192.168.1.102": {
+        "Timestamp": "1613466700",
+        "MAC Address": "66:77:88:99:AA:BB",
+        "Hostname": "AnotherDevice"
+    },
+    "192.168.1.108": {
+        "Timestamp": "1613466800",
+        "MAC Address": "66:77:88:99:AA:B1",
+        "Hostname": "AnotherDevice"
+    }
+}
