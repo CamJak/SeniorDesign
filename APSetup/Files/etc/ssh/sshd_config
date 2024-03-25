@@ -106,7 +106,7 @@ PrintMotd no
 #VersionAddendum none
 
 # no default banner path
-Banner /etc/ssh/csna_banner
+Banner /etc/ssh/phoebus_banner
 
 # Allow client to pass locale environment variables
 AcceptEnv LANG LC_*
