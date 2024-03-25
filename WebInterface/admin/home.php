@@ -9,6 +9,12 @@
     $dns2 = $env['DNS2'];
 ?>
 
+<script>
+    function redirect(page) {
+        window.location.replace(page);
+    };
+</script>
+
 <html>
 <head>
     <title>Router Login</title>
@@ -27,6 +33,7 @@
             <p>DNS 2: </p><input type="text" id="dns2" name="dns2" value="<?php echo $dns2; ?>"></br>
             <input type="submit" value="Save Changes">
         </form>
-        </div>
+        <button onclick="redirect('/index.php')">Go back to Home</button>
+    </div>
 </body>
 </html>
