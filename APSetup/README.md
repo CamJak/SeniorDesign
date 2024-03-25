@@ -21,7 +21,7 @@ Before you begin, make sure you have the following:
 5. Choose the MicroSD card
 6. Click Next and then Edit Settings
 7. Set the following settings:
-   - Hostname: `CSNA`
+   - Hostname: `Phoebus`
    - Username `Admin`
    - Password `password`
 8. Click on the Services tab and make sure SSH is enabled
