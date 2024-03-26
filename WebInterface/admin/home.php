@@ -7,7 +7,7 @@
     $dns1 = $env['DNS1'];
     $dns2 = $env['DNS2'];
 
-    $domain = $env['DOMAIN'];
+    //$domain = $env['DOMAIN'];
     $dhcp_auth = $env['DHCP_AUTHORITATIVE'];
     $dhcp_seq = $env['DHCP_SEQUENTIAL'];
 
@@ -45,9 +45,19 @@
             <p>DNS 1: </p><input type="text" id="dns1" name="dns1" value="<?php echo $dns1; ?>"></br>
             <p>DNS 2: </p><input type="text" id="dns2" name="dns2" value="<?php echo $dns2; ?>"></br>
             <hr>
-            <p>Domain: </p><input type="text" id="domain" name="domain" value="<?php echo $domain; ?>"></br>
-            <p>Authoritative DHCP: </p><input type="text" id="dhcp_auth" name="dhcp_auth" value="<?php echo $dhcp_auth; ?>"></br>
-            <p>Sequential DHCP: </p><input type="text" id="dhcp_seq" name="dhcp_seq" value="<?php echo $dhcp_seq; ?>"></br>
+            <!-- <p>Domain: </p><input type="text" id="domain" name="domain" value="<?php echo $domain; ?>"></br> -->
+            <p>Authoritative DHCP Server: </p>
+                <input type="radio" id="dhcp_auth_on" name="dhcp_auth" value="on" <?php if ($dhcp_auth == 1) { ?> checked <?php } ?>>
+                <label for="dhcp_auth_on">On</label>
+                <input type="radio" id="dhcp_auth_off" name="dhcp_auth" value="off" <?php if ($dhcp_auth != 1) { ?> checked <?php } ?>>
+                <label for="dhcp_auth_off">Off</label>
+                </br>
+            <p>DHCP Sequential IPs: </p>
+                <input type="radio" id="dhcp_seq_on" name="dhcp_seq" value="on" <?php if ($dhcp_seq == 1) { ?> checked <?php } ?>>
+                <label for="dhcp_seq_on">On</label>
+                <input type="radio" id="dhcp_seq_off" name="dhcp_seq" value="off" <?php if ($dhcp_seq != 1) { ?> checked <?php } ?>>
+                <label for="dhcp_seq_off">Off</label>
+                </br>
             <hr>
             <p>Subnet 1 Name: </p><input type="text" id="subnet1" name="subnet1" value="<?php echo $subnet1; ?>"></br>
             <p>Subnet 1 Start Address: </p><input type="text" id="dhcp1_start" name="dhcp1_start" value="<?php echo $dhcp1_start; ?>"></br>
